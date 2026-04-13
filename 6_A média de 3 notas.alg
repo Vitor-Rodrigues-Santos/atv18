@@ -27,8 +27,13 @@ se media >= 7 entao
 
 senao
         se media <= 4 entao
+        
+        limpatela
         escreva("A média desse aluno é de ", media, ", esse aluno está reprovado.")
+        
         senao
+        
+        limpatela
         escreva("A média desse aluno é de ", media, ", esse aluno está de recuperação.")
      
      fimse
