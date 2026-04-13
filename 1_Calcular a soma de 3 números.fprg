@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-13 01:33:40 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzk5OzIwMjYtMDQtMTM7IjExOjE4OjUwICI7Mjg2NQ=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzk5OzIwMjYtMDQtMTM7IjAxOjMzOjQwICI7NDsyOTcx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, total" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro n&#250;mero para soma&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Digite o segundo n&#250;mero para soma&quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Digite o terceiro n&#250;mero para soma&quot;" newline="True"/>
+            <input variable="n3"/>
+            <assign variable="total" expression="n1 + n2 + n3"/>
+            <output expression="&quot;O total da soma de: &quot; &amp; n1 &amp; &quot; + &quot; &amp; n2 &amp; &quot; + &quot; &amp; n3 &amp; &quot; &#233; &quot; &amp; total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

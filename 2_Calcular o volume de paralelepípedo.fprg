@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-13 01:49:48 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzk5OzIwMjYtMDQtMTM7IjExOjE4OjUwICI7Mjg2NQ=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzk5OzIwMjYtMDQtMTM7IjAxOjQ5OjQ4ICI7NjsyOTg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, altura, largura, volume" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor da base do paralelep&#237;pedo&quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;Digite o valor da altura do paralelep&#237;pedo&quot;" newline="True"/>
+            <input variable="altura"/>
+            <output expression="&quot;Digite o valor da largura do paralelep&#237;pedo&quot;" newline="True"/>
+            <input variable="largura"/>
+            <assign variable="volume" expression="base * altura * largura"/>
+            <output expression="&quot;O valor do volume do paralelep&#237;pedo de base &quot; &amp; base &amp; &quot;, altura &quot; &amp; altura &amp; &quot; e largura &quot; &amp; largura &amp; &quot; &#233; &quot; &amp; volume" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

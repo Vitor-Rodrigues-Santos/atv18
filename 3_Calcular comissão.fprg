@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-13 02:00:15 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzk5OzIwMjYtMDQtMTM7IjExOjE4OjUwICI7Mjg2NQ=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzk5OzIwMjYtMDQtMTM7IjAyOjAwOjE1ICI7NTsyOTY5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valorProduto, percentualComissao, comissao" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor do produto&quot;" newline="True"/>
+            <input variable="valorProduto"/>
+            <if expression="valorProduto &lt;= 5000">
+                <then>
+                    <assign variable="percentualComissao" expression="0.05"/>
+                    <assign variable="comissao" expression="valorProduto * percentualComissao"/>
+                    <output expression="&quot;O pre&#231;o do produto &#233; de: R$ &quot; &amp; valorProduto &amp; &quot;. O percentual da sua comiss&#227;o &#233; de: &quot; &amp; percentualComissao * 100 &amp; &quot;%. Logo, sua comiss&#227;o ser&#225; de: R$ &quot; &amp; comissao" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="percentualComissao" expression="0.10"/>
+                    <assign variable="comissao" expression="valorProduto * percentualComissao"/>
+                    <output expression="&quot;O pre&#231;o do produto &#233; de: R$ &quot; &amp; valorProduto &amp; &quot;. O percentual da sua comiss&#227;o &#233; de: &quot; &amp; percentualComissao * 100 &amp; &quot;%. Logo, sua comiss&#227;o ser&#225; de: R$ &quot; &amp; comissao" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
