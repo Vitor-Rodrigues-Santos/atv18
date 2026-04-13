@@ -2,7 +2,7 @@
 
 Este repositório registra o avanço dos meus estudos para algoritmos com **tomadas de decisão**. O foco desta etapa foi implementar lógicas que permitem ao software reagir de formas diferentes baseando-se em condições específicas.
 
-> **Status:** Concluído ✅ | **Foco:** Condicionais (SE / SENÃO) e Operadores de Comparação
+> **Foco:** Condicionais (SE / SENÃO) e Operadores de Comparação
 
 ---
 
