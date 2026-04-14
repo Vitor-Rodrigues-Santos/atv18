@@ -15,13 +15,15 @@ Este repositório registra o avanço dos meus estudos para algoritmos com **toma
 ## 📂 Atividades e Algoritmos Desenvolvidos
 Todos os desafios abaixo foram estruturados com foco em aplicar regras de decisão e processamento de dados:
 
-* **➕ Soma de 3 números:** Prática de entrada, processamento e saída de dados.
-* **📐 Volume de um Paralelepípedo:** Aplicação de cálculo de geometria espacial.
-* **💰 Cálculo de Comissão:** Aplicação de bônus para vendas acima ou iguais a R$ 5.000,00.
-* **🚗 Verificação de Habilitação:** Algoritmo que valida se o usuário possui idade mínima para dirigir.
-* **🔑 Sistema de Senha:** Validação de acesso através de comparação com uma senha predeterminada.
-* **📊 Sistema de Notas Escolares:** Cálculo de média com três caminhos (Aprovado ≥ 7, Recuperação entre 4 e 6, Reprovado < 4).
-* **🗳️ Obrigatoriedade de Voto:** Verificação da idade para classificar o status eleitoral.
+| Atividade | Descrição Lógica |
+| :--- | :--- |
+| ➕ **Soma de 3 números** | Prática de entrada, processamento e saída de dados. |
+| 📐 **Volume de um Paralelepípedo** | Aplicação de cálculo de geometria espacial. |
+| 💰 **Cálculo de Comissão** | Aplicação de bônus para vendas acima ou iguais a R$ 5.000,00. |
+| 🚗 **Verificação de Habilitação** | Algoritmo que valida se o usuário possui idade mínima para dirigir. |
+| 🔑 **Sistema de Senha** | Validação de acesso através de comparação com uma senha predeterminada. |
+| 📊 **Sistema de Notas Escolares** | Cálculo de média com três caminhos (Aprovado ≥ 7, Recuperação entre 4 e 6, Reprovado < 4). |
+| 📋 **Obrigatoriedade de Voto** | Verificação da idade para classificar o status eleitoral. |
 
 ---
 
